@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo | Boutique Iluá</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo-wrapper">
+            <span class="logo">BOUTIQUE ILUÁ</span>
+            <span class="logo-sub">CATALOGUE COMPLET</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">La Maison</a></li>
+                <li><a href="colecoes.html" class="active">Coleções</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+                <li><a href="sobreNos.html">Sobre Nós</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="cat-main-container">
+        <aside class="cat-sidebar">
+            <h2 class="cat-filter-title">Filtres</h2>
+            
+            <div class="cat-filter-group">
+                <h4>Modèle</h4>
+                <ul>
+                    <li><input type="checkbox"> Vestidos</li>
+                    <li><input type="checkbox"> Saias</li>
+                    <li><input type="checkbox"> Blusas</li>
+                    <li><input type="checkbox"> Camisas</li>
+                    <li><input type="checkbox"> Camisetas</li>
+                </ul>
+            </div>
+
+            <div class="cat-filter-group">
+                <h4>Taille</h4>
+                <div class="cat-size-grid">
+                    <span>P</span><span>M</span><span>G</span><span>GG</span>
+                </div>
+            </div>
+
+            <div class="cat-filter-group">
+                <h4>Couleur</h4>
+                <div class="cat-color-grid">
+                    <span style="background: #fff; border: 1px solid #ddd;"></span>
+                    <span style="background: #000;"></span>
+                    <span style="background: var(--rosa-vibrante);"></span>
+                    <span style="background: var(--dourado-vivo);"></span>
+                </div>
+            </div>
+
+            <div class="cat-filter-group">
+                <h4>Prix</h4>
+                <input type="range" class="cat-range">
+                <div class="cat-price-labels">
+                    <span>R$ 0</span>
+                    <span>R$ 1.000+</span>
+                </div>
+            </div>
+        </aside>
+
+        <main class="cat-products-grid">
+            <div class="product-card">
+                <div class="product-frame">
+                    <div class="product-image"></div>
+                </div>
+                <h3>Blusa de Seda Éclat</h3>
+                <p class="price">R$ 280,00</p>
+                <a href="detalhes.html" class="view-details">Détails</a>
+            </div>
+
+            <div class="product-card">
+                <div class="product-frame">
+                    <div class="product-image"></div>
+                </div>
+                <h3>Saia Midi Plissada</h3>
+                <p class="price">R$ 340,00</p>
+                <a href="detalhes.html" class="view-details">Détails</a>
+            </div>
+
+            </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Boutique Iluá - Maison de Mode</p>
+    </footer>
+
+</body>
+</html>

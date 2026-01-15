@@ -3,23 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boutique Iluá | Maison de Mode</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Boutique Iluá</title>
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header>
+    <header class="header-main">
         <div class="header-container">
             <div class="logo-wrapper">
                 <span class="logo">BOUTIQUE ILUÁ</span>
-                <span class="logo-sub">PARIS</span>
+                <span class="logo-sub"></span>
             </div>
-            <nav>
+            <nav class="nav-main">
                 <ul>
                     <li><a href="index.html">La Maison</a></li>
-                    <li><a href="produtos.html">Coleções</a></li>
+                    <li><a href="colecoes.html">Coleções</a></li>
+                    <li><a href="catalogo.html">Catálogo</a></li>
                     <li><a href="carrinho.html">Carrinho</a></li>
+                    <li><a href="sobreNos.html">Sobre Nós</a></li>
                 </ul>
             </nav>
         </div>
@@ -32,13 +34,13 @@
                     <span class="collection-label">Collection Éclat</span>
                     <h1>L'Art de Vivre</h1>
                     <p>A essência do luxo francês em detalhes minimalistas.</p>
-                    <a href="#produtos" class="btn-outline">Explorar</a>
+                    <a href="produtos.html" class="btn-outline">Explorar Coleção</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <main id="produtos">
+    <main id="produtos-destaque">
         <div class="section-header">
             <hr class="line">
             <h2 class="section-title">Nouveautés</h2>
@@ -48,7 +50,7 @@
         <div class="product-grid">
             <div class="product-card">
                 <div class="product-frame">
-                    <div class="product-image" style="background-image: url('caminho-da-sua-foto.jpg');"></div>
+                    <div class="product-image"></div>
                 </div>
                 <h3>Vestido Coquette Rose</h3>
                 <p class="price">R$ 450,00</p>
@@ -66,9 +68,9 @@
         </div>
     </main>
 
-    <footer>
+    <footer class="sn-footer">
         <div class="footer-decoration">
-            <img src="https://cdn-icons-png.flaticon.com/512/814/814513.png" alt="Eiffel Tower" class="footer-icon">
+            <img src="https://cdn-icons-png.flaticon.com/512/814/814513.png" alt="Eiffel Tower" class="footer-icon" style="filter: sepia(1) saturate(5) hue-rotate(10deg);">
         </div>
         <p>&copy; 2026 Boutique Iluá - Maison de Mode</p>
     </footer>

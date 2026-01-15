@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votre Panier | Boutique Iluá</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400&family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo-wrapper">
+            <span class="logo">BOUTIQUE ILUÁ</span>
+            <span class="logo-sub">Carrinho</span>
+        </div>
+        <nav class="nav-main">
+                <ul>
+                    <li><a href="index.html">La Maison</a></li>
+                    <li><a href="colecoes.html">Coleções</a></li>
+                    <li><a href="catalogo.html">Catálogo</a></li>
+                    <li><a href="carrinho.html">Carrinho</a></li>
+                    <li><a href="sobreNos.html">Sobre Nós</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <main class="car-container">
+        <div class="car-frame-main">
+            <h2 class="car-title-page">Votre Panier</h2>
+            
+            <div class="car-list">
+                <div class="car-item-row">
+                    <div class="car-img-box"></div>
+                    <div class="car-item-details">
+                        <span class="car-tag-maison">Maison Iluá</span>
+                        <h3 class="car-item-name">Vestido Coquette Rose</h3>
+                        <p class="car-item-meta">Tamanho: P | Cor: Rosa Blush</p>
+                        <span class="car-item-price">R$ 450,00</span>
+                    </div>
+                    <button class="car-btn-remove">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 6L6 18M6 6l12 12"/></svg>
+                    </button>
+                </div>
+            </div>
+
+            <section class="car-section-accessories">
+                <h4 class="car-upsell-title">Les Accessoires</h4>
+                <div class="car-upsell-flex">
+                    <div class="car-accessory-card">
+                        <div class="car-accessory-img"></div>
+                        <h5>Colar Pérolas D'Or</h5>
+                        <button class="car-btn-add-mini">+ Ajouter</button>
+                    </div>
+                    <div class="car-accessory-card">
+                        <div class="car-accessory-img"></div>
+                        <h5>Lenço Seda Fleur</h5>
+                        <button class="car-btn-add-mini">+ Ajouter</button>
+                    </div>
+                </div>
+            </section>
+
+            <div class="car-checkout-box">
+                <div class="car-gift-wrap">
+                    <input type="checkbox" id="car-gift">
+                    <label for="car-gift">Embalagem para presente Maison Iluá</label>
+                </div>
+
+                <div class="car-summary-table">
+                    <div class="car-summary-line">
+                        <span>Subtotal</span>
+                        <span>R$ 450,00</span>
+                    </div>
+                    <div class="car-summary-line car-total-highlight">
+                        <span>Total</span>
+                        <span>R$ 450,00</span>
+                    </div>
+                </div>
+
+                <button class="car-btn-finalize">Finalizar Pedido</button>
+                <a href="index.html" class="car-back-link">Retourner à la boutique</a>
+            </div>
+        </div>
+    </main>
+<footer class="sn-footer">
+        <div class="footer-decoration">
+            <img src="https://cdn-icons-png.flaticon.com/512/814/814513.png" alt="Eiffel Tower" class="footer-icon" style="filter: sepia(1) saturate(5) hue-rotate(10deg);">
+        </div>
+        <p>&copy; 2026 Boutique Iluá - Maison de Mode</p>
+    </footer>
+</body>
+</html>

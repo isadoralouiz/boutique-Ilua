@@ -149,3 +149,561 @@ footer {
 }
 
 .footer-icon { width: 30px; opacity: 0.5; margin-bottom: 20px; }
+
+/* --- Estilos Exclusivos do Carrinho (car-) --- */
+
+.car-container {
+    padding: 60px 5%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.car-frame-main {
+    border: 1px solid var(--dourado-velho);
+    padding: 50px;
+    background: var(--branco-neve);
+    position: relative;
+}
+
+.car-title-page {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 50px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 3px;
+}
+
+.car-item-row {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--rosa-blush);
+    margin-bottom: 30px;
+}
+
+.car-img-box {
+    width: 90px;
+    height: 120px;
+    background-color: var(--bege-creme);
+    margin-right: 25px;
+    border: 1px solid var(--borda);
+}
+
+.car-tag-maison {
+    font-size: 9px;
+    color: var(--dourado-velho);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.car-item-name {
+    font-size: 14px;
+    margin: 5px 0;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.car-item-meta {
+    font-size: 11px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.car-item-price {
+    font-family: 'Playfair Display';
+    font-style: italic;
+    color: var(--preto-suave);
+}
+
+.car-btn-remove {
+    background: none;
+    border: none;
+    margin-left: auto;
+    cursor: pointer;
+    color: #bbb;
+    transition: 0.3s;
+}
+
+.car-btn-remove:hover { color: var(--dourado-velho); }
+
+/* Seção de Acessórios */
+.car-section-accessories {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.car-upsell-title {
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.car-upsell-flex {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.car-accessory-card { width: 130px; }
+
+.car-accessory-img {
+    height: 140px;
+    background: var(--bege-creme);
+    border-radius: 60px 60px 0 0; /* Curvatura francesa */
+    margin-bottom: 10px;
+    border: 1px solid var(--rosa-blush);
+}
+
+.car-accessory-card h5 {
+    font-size: 10px;
+    text-transform: uppercase;
+    margin: 8px 0;
+    letter-spacing: 1px;
+}
+
+.car-btn-add-mini {
+    background: none;
+    border: none;
+    color: var(--dourado-velho);
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Resumo Final */
+.car-checkout-box {
+    margin-top: 50px;
+    border-top: 1px double var(--dourado-velho);
+    padding-top: 30px;
+}
+
+.car-gift-wrap {
+    text-align: center;
+    font-size: 11px;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.car-summary-table {
+    max-width: 300px;
+    margin: 0 auto 30px;
+}
+
+.car-summary-line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.car-total-highlight {
+    font-weight: bold;
+    border-top: 1px solid var(--preto-suave);
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.car-btn-finalize {
+    width: 100%;
+    background: var(--preto-suave);
+    color: white;
+    border: none;
+    padding: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.car-btn-finalize:hover { background: var(--dourado-velho); }
+
+.car-back-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 10px;
+    text-decoration: none;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* --- ESTILO SOBRE NÓS FASHION (Prefix: sn-) --- */
+
+.sn-viewport {
+    padding: 100px 5%;
+    background: radial-gradient(circle at top right, #fff5f6 0%, #ffffff 50%);
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.sn-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sn-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
+/* Lado Visual */
+.sn-visual-side {
+    position: relative;
+}
+
+.sn-main-image {
+    width: 100%;
+    height: 550px;
+    background: var(--bege-creme); /* Substitua por uma imagem: background-image: url('...'); */
+    background-size: cover;
+    border-radius: 250px 250px 20px 20px;
+    border: 1px solid var(--dourado-velho);
+    box-shadow: 20px 20px 0px var(--rosa-blush);
+    position: relative;
+    transition: 0.5s ease;
+}
+
+.sn-main-image:hover {
+    transform: translateY(-10px);
+    box-shadow: 25px 25px 0px var(--dourado-velho);
+}
+
+.sn-floating-text {
+    position: absolute;
+    bottom: 50px;
+    left: -30px;
+    background: var(--preto-suave);
+    color: var(--dourado-velho);
+    padding: 10px 20px;
+    font-size: 10px;
+    letter-spacing: 4px;
+    transform: rotate(-90deg);
+}
+
+/* Lado do Texto */
+.sn-pre-title {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: var(--dourado-velho);
+    letter-spacing: 3px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.sn-main-title {
+    font-size: 48px;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+
+.sn-main-title i {
+    font-weight: 400;
+    color: var(--dourado-velho);
+}
+
+.sn-description-box p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Card de Contato com Efeito Glow */
+.sn-contact-card {
+    margin-top: 40px;
+    padding: 40px;
+    background: white;
+    border: 1px solid var(--rosa-blush);
+    box-shadow: 0 15px 40px rgba(248, 225, 231, 0.7); /* Glow Rosa */
+    border-radius: 4px;
+    transition: 0.4s;
+}
+
+.sn-contact-card:hover {
+    border-color: var(--dourado-velho);
+    box-shadow: 0 20px 50px rgba(197, 160, 89, 0.2); /* Glow Dourado */
+}
+
+.sn-card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.sn-card-info {
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sn-card-info i {
+    color: var(--dourado-velho);
+}
+
+/* Ícones das Redes Sociais */
+.sn-social-icons {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.sn-icon-link {
+    font-size: 22px;
+    color: var(--preto-suave);
+    transition: 0.3s;
+}
+
+.sn-icon-link:hover {
+    color: var(--dourado-velho);
+    transform: translateY(-3px);
+    text-shadow: 0 0 10px rgba(197, 160, 89, 0.4);
+}
+
+/* Footer */
+.sn-footer {
+    text-align: center;
+    padding: 60px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #999;
+}
+
+/* Responsivo */
+@media (max-width: 900px) {
+    .sn-wrapper { grid-template-columns: 1fr; }
+    .sn-visual-side { display: none; } /* Oculta imagem no mobile para focar no texto */
+}
+
+/* --- ESTILO LANÇAMENTOS (Prefix: col-) --- */
+
+.col-viewport {
+    padding: 60px 10%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.col-header-text {
+    margin-bottom: 80px;
+}
+
+/* Grade de Cards Menores */
+.col-mini-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 280px)); /* Cards menores e fixos */
+    gap: 40px;
+    justify-content: center;
+}
+
+.col-mini-card {
+    text-decoration: none;
+    color: inherit;
+    transition: 0.4s ease;
+}
+
+/* Moldura Dourada e Branca */
+.col-mini-frame {
+    background: #fff;
+    padding: 12px;
+    border: 1px solid #f2f2f2;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.col-mini-img {
+    height: 350px; /* Altura reduzida */
+    background-color: var(--bege-creme);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid rgba(197, 160, 89, 0.3); /* Borda dourada fina */
+}
+
+/* Efeito Glow no Hover */
+.col-mini-card:hover .col-mini-frame {
+    transform: translateY(-10px);
+    border-color: var(--dourado-velho);
+    box-shadow: 0 15px 40px rgba(197, 160, 89, 0.15); /* Glow dourado sutil */
+}
+
+/* Textos do Card */
+.col-mini-info {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.col-date {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--dourado-velho);
+    display: block;
+    margin-bottom: 10px;
+}
+
+.col-collection-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: var(--preto-suave);
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.col-discover {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: 0.3s;
+}
+
+.col-mini-card:hover .col-discover {
+    color: var(--dourado-velho);
+}
+
+.col-discover i {
+    font-size: 14px;
+}
+
+/* Rodapé das Coleções */
+.sn-footer {
+    margin-top: 100px;
+}
+
+/* --- TELA DE CATÁLOGO COMPLETO (Prefix: cat-) --- */
+
+.cat-main-container {
+    display: grid;
+    grid-template-columns: 250px 1fr; /* Sidebar fixa na esquerda */
+    gap: 40px;
+    padding: 60px 5%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Sidebar de Filtros */
+.cat-sidebar {
+    padding-right: 20px;
+    border-right: 1px solid var(--rosa-vibrante);
+}
+
+.cat-filter-title {
+    font-size: 18px;
+    color: var(--preto-suave);
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+
+.cat-filter-group {
+    margin-bottom: 35px;
+}
+
+.cat-filter-group h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--dourado-vivo);
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.cat-filter-group ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cat-filter-group li {
+    font-size: 12px;
+    margin-bottom: 8px;
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Checkbox estilizado */
+input[type="checkbox"] {
+    accent-color: var(--dourado-vivo);
+}
+
+/* Grade de Tamanhos e Cores */
+.cat-size-grid, .cat-color-grid {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.cat-size-grid span {
+    width: 35px;
+    height: 35px;
+    border: 1px solid var(--borda-fina);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cat-size-grid span:hover {
+    border-color: var(--dourado-vivo);
+    color: var(--dourado-vivo);
+}
+
+.cat-color-grid span {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Range de Preço */
+.cat-range {
+    width: 100%;
+    accent-color: var(--dourado-vivo);
+}
+
+.cat-price-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    margin-top: 5px;
+    color: #999;
+}
+
+/* Grid de Produtos */
+.cat-products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 40px;
+}
+
+/* Responsividade */
+@media (max-width: 900px) {
+    .cat-main-container {
+        grid-template-columns: 1fr;
+    }
+    .cat-sidebar {
+        border-right: none;
+        border-bottom: 1px solid var(--rosa-vibrante);
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+    }
+}
